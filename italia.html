@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/estilo.css">
+	
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Lora:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="Index.html">Boxer</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cadastroEntra.html">Compras</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Países
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="brasil.html">Brasil</a></li>
+            <li><a class="dropdown-item" href="italia.html">Italia</a></li>
+			<li><a class="dropdown-item" href="inglaterra.html">Inglaterra</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled"></a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Escreva aqui" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div id="imagensItalia">
+  <img id="img1italia" src="imagens/italia1.jfif" class="img-thumbnail" alt="...">
+  <p id="italiaTexto1">The Italian Boxing Federation promotes, organizes, and supports Italian Boxing in all its forms, aiming for competitive success and the physical and mental well-being of amateur athletes.
+
+    From the Athlete to the Enthusiast,
+    from the Adult to the Child.
+    It has been doing so since 1916.
+    
+    It does so by looking its opponent in the eye and never lowering its guard.</p>
+  <img id="img2italia" src="imagens/italia2.jfif" class="img-thumbnail" alt="...">
+  
+</div>
+
+<div id="modal">
+  <!-- Button trigger modal -->
+<button id="modalBotao" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Confira alguns Campeões
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Campeões</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Um deles é benedito e do Brasil temos a fera Bia Ferreira
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">daora</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	<script src="scripts/script.js"></script>
+</body>
+
+
+
+</html>

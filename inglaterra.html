@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/estilo.css">
+	
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Lora:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="Index.html">Boxer</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cadastroEntra.html">Compras</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Países
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="brasil.html">Brasil</a></li>
+            <li><a class="dropdown-item" href="italia.html">Italia</a></li>
+			<li><a class="dropdown-item" href="inglaterra.html">Inglaterra</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled"></a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Escreva aqui" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div> 
+  <img id="imagemIngla" src="imagens/inglaterraboxe.jfif" class="img-fluid" alt="...">
+</div>
+
+<a id="botaoOffCanvas" class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+  Confira a história
+</a>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">História do boxe inglês</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      Remontando aos séculos XVIII e XIX, quando de seu nascimento na Inglaterra, o Boxe era praticado com as mãos nuas. Essas lutas com as mãos descobertas eram frequentemente brutais, de modo que o Boxe acabou sofrendo intensas mudanças em 1867, com a formulação das Regras de Queensberry, que previam rounds de três minutos, separados por um intervalo de um minuto, além do uso obrigatório das luvas. Essas regras entraram em vigor em 1872.
+
+      O Boxe foi primeiramente considerado um desporto olímpico em 688 a.C., na 23ª Olimpíada da Antiguidade; seu vencedor foi Onomasto de Esmirna, que foi quem definiu as regras do esporte. Posteriormente, quando houve o ressurgimento dos Jogos Olímpicos da Era Moderna, nas Olimpíadas de 1896, em Atenas, o Boxe não foi incluído como uma das modalidades da competição. O Boxe então somente retornou nas Olimpíadas de 1904, a terceira da Era Moderna, em St. Louis, e desde então foi praticado em todas suas edições posteriores, com exceção das Olimpíadas de 1912, em Estocolmo.
+      
+       
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	<script src="scripts/script.js"></script>
+</body>
+
+
+
+</html>
